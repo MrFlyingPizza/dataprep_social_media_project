@@ -1,0 +1,6 @@
+{
+    "api-link" : "http://api.lib.sfu.ca/",
+    "courses" : ["departments", "numbers", "sections", "course"],
+    "covers" : ["redirect", "url","exists"],
+    "equipment" : ["laptop_count", "laptop_details", "computers_search"]
+}

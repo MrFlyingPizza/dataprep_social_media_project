@@ -1,5 +1,5 @@
 """
-ASGI config for dataprep_social_media_project project.
+ASGI config for sfu_library_app project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dataprep_social_media_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sfu_library_app.settings')
 
 application = get_asgi_application()

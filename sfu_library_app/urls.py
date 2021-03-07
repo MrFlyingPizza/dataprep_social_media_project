@@ -1,4 +1,4 @@
--"""dataprep_social_media_project URL Configuration
+"""sfu_library_app URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -15,7 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url
+
+from .views import (
+    home_view,
+    courses_view,
+    library_view,
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^base/$', home_view),
+    url(r'^courses/$', courses_view),
+    url(r'^library/$', library_view),
 ]

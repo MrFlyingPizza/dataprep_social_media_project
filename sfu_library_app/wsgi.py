@@ -1,5 +1,5 @@
 """
-WSGI config for dataprep_social_media_project project.
+WSGI config for sfu_library_app project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dataprep_social_media_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sfu_library_app.settings')
 
 application = get_wsgi_application()
